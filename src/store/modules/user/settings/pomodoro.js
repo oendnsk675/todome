@@ -40,10 +40,10 @@ export default {
         },
         timer:{
             work: {
-                minutes: 0,
-                minutesFix: 0,
-                seconds: 1,
-                secondsFix: 1,
+                minutes: 25,
+                minutesFix: 25,
+                seconds: 0,
+                secondsFix: 0,
             },
             break: {
                 minutes: 0,

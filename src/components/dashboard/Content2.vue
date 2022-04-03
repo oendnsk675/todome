@@ -108,7 +108,7 @@
                 <div class="flex justify-between items-center">
                     <div @click.stop class="flex gap-4 items-center">
                         <div class="relative">
-                            <h1 class="font-Nunito font-black text-2xl dark:text-gray-50">{{section.title}}</h1>
+                            <h1 class="font-Nunito font-bold text-2xl dark:text-gray-50">{{section.title}}</h1>
                             <input @change="setTitleSection(section.title)" :style="this.importantStyle.state_border" type="text" 
                             :class="{
                                 'bg-gray-100 z-20 opacity-100' : getModeWriteSection,
