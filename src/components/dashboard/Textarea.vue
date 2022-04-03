@@ -61,12 +61,12 @@
             <div class="flex justify-end gap-2 absolute right-2 bottom-2">
               <div class="flex gap-3 z-50 md:fixed md:bottom-4 md:right-6">
                 <!-- btn close -->
-                <button @click="closeAllPopUp()" class="border-2 lg:hidden border-gray-500  hover:bg-gray-400 hover:text-gray-50 transition-colors duration-300 font-Nunito rounded-xl py-1 px-4">Close</button>
+                <button @click="closeAllPopUp()" class="border-2 lg:hidden border-gray-500  hover:bg-gray-400 hover:text-gray-50 transition-colors md:text-gray-500 duration-300 font-Nunito rounded-xl py-1 px-4">Close</button>
                 <!-- /btn close -->
                 
 
                 <!-- btn save -->
-                <button @click="save()" class="border border-gray-50 hover:bg-gray-400 hover:text-gray-50 transition-colors duration-300 font-Nunito rounded-xl py-1 text-sm px-4">Save</button>
+                <button @click="save()" class="border md:border-2 border-gray-50 md:border-gray-500 md:text-gray-500 hover:bg-gray-400 hover:text-gray-50 transition-colors duration-300 font-Nunito rounded-xl py-1 text-sm px-4">Save</button>
                 <!-- /btn save -->
               </div>
                 <button @click.stop="toggleSettingsColorCard" class="lg:px-2 md:px-1 py-1 text-xs border border-gray-100 text-gray-100 hover:border-gray-700 hover:bg-gray-100 hover:text-gray-700 transition-colors duration-300 rounded-lg ">Change color card</button>
